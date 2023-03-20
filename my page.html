@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>my page</title>
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/form.css">
+
+  <base target="_blank">
+  </base target>
+  <style>
+
+  </style>
+
+</head>
+
+<body>
+  <div id="main">
+    <div class="header">
+      <h2>This is a guiding page for personal use.</h2>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="dropdown" style="float:right;">
+      <button class="dropbtn">主题</button>
+      <div class="dropdown-content">
+        <a href="#">浅色主题</a>
+        <a href="#">深色主题</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="R">
+        <div class="subtitle">Bioinfo</div>
+        <div class="C1 R1 grid-container">
+          <div class="grid"><a href="https://www.ncbi.nlm.nih.gov/" title="美国国家生物技术信息中心，提供各种生物学数据库和工具">NCBI</a></div>
+          <div class="grid"><a href="https://www.uniprot.org/" title="全球最大的蛋白质序列和功能数据库，提供蛋白质注释和分类">UniProt</a></div>
+          <div class="grid"><a href="https://www.ebi.ac.uk/" title="欧洲生物信息研究所，提供多个领域的生物数据资源和服务">EBI</a></div>
+          <div class="grid"><a href="https://www.ensembl.org/index.html"
+              title="欧洲分子生物学实验室的基因组浏览器，提供多种物种的基因组注释和比较">Ensembl</a></div>
+          <div class="grid"><a href="http://bioconductor.org/" title="一个开源软件项目,提供R语言包用于分析高通量基因组数据">Bioconductor</a>
+          </div>
+          <div class="grid"><a href="http://rosettacode.org/wiki/Rosetta_Code"
+              title="一个编程知识库，收集了各种编程语言解决同一问题的方法">Rosetta Code</a></div>
+          <div class="grid"><a href="https://www.bioinformatics.org/"
+              title="一个非营利性组织，旨在促进自由和开放源码软件在生命科学中的发展和应用">Bioinformatics</a></div>
+          <div class="grid"><a href="https://rosalind.info/problems/list-view/?location=python-village#">Rosalind</a>
+          </div>
+
+          <div class="grid"><a href="https://swissmodel.expasy.org/">Swiss Model</a></div>
+
+          <div class="grid"><a href="http://www.genome.jp/kegg/" title="日本京都大学的代谢途径数据库，提供细胞、器官、疾病等层面的代谢网络图">KEGG</a>
+          </div>
+        </div>
+        <div class="C2 R1 grid-container">
+          <div class="grid"><a href="www.cc98.org">CC98</a></div>
+          <div class="grid"><a href="www.cc98.org">CC98</a></div>
+
+        </div>
+      </div>
+
+      <div class="left"><a href="https://www.ncbi.nlm.nih.gov/">NCBI</a></div>
+      <div class="central"><a href="https://www.uniprot.org/">UniProt</a></div>
+      <div class="right"><a href="https://www.ensembl.org/index.html">Ensembl</a></div>
+    </div>
+    <p>希望这个网页对你有帮助。</p>
+    <table>
+      <tr>
+        <th>网站名称</th>
+        <th>网站链接</th>
+      </tr>
+      <tr>
+        <td>无名图书</td>
+        <td><a href="https://www.book123.info/">https://www.book123.info/</a></td>
+      </tr>
+      <tr>
+        <td>convertio</td>
+        <td><a href="https://convertio.co/zh/">https://convertio.co/zh/</a></td>
+      </tr>
+      <tr>
+        <td>z-library</td>
+        <td><a
+            href="https://lib-apvatcwrezozjl4kdlbr2weh.resist.tel/">https://lib-apvatcwrezozjl4kdlbr2weh.resist.tel/</a>
+        </td>
+      </tr>
+      <tr>
+        <td>RFI</td>
+        <td><a href="https://www.rfi.fr/fr/">https://www.rfi.fr/fr/</a></td>
+      </tr>
+      <tr>
+        <td>glados</td>
+        <td><a href="5">5</a></td>
+      </tr>
+    </table>
+    <form action="/action_page.php" method="post">
+      <h3>访客注册登录功能：</h3>
+      <label for="username">用户名：</label>
+      <br />
+      <input type="text" id="username" name="username"><br><br>
+      <label for="password">密码：</label>
+      <br />
+      <input type="password" id="password" name="password"><br><br>
+      <label for="country">国家：</label>
+      <br />
+      <select name="country">
+        <option value="CN">CN</option>
+        <option value="US">US</option>
+        <option value="FR">FR</option>
+        <option value="AU">AU</option>
+        <option value="SG">SG</option>
+      </select>
+      <br />
+      <br />
+      <input type="submit" value="登录">
+      <input type="reset" value="重置">
+      <a href="#">忘记密码？ </ a>
+        <a href="#">没有账号？注册 </ a>
+    </form>
+  </div>
+</body>
+
+</html>
