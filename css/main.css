@@ -1,0 +1,50 @@
+body{
+    background-color: #625e5e;
+}
+#main {
+    /* padding: 20px;
+    margin-top: 30px; */
+    background-color: #625e5e;
+    /* height: 1500px; */
+}
+/* div.container{
+    display: flex;
+    
+} */
+div.subtitle{
+    color:#ffffff
+}
+div.grid-container{
+    width: 10%;
+    height:10%;
+    /* display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    
+    padding: 10px;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    border-style: groove; */
+    background-color: #b67676;
+    
+}
+
+a{
+    color: #ffffff;
+}
+
+
+.grid {
+    background-color: rgba(80, 80, 80, 0.8);
+    /* border: 1px solid rgba(216, 216, 216, 0.8);  */
+    text-align: center;
+    padding:3%;
+}
+div.subtitle{
+    display: inline-block;
+}
+div.R{
+    display:flex;
+}
+p{
+    overflow: scroll;
+}
