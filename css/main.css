@@ -15,28 +15,27 @@ div.R{
 div.container{
     text-align: center;
     display:inline-block;
-    width: 10%;
+    width: 13%;
     height:auto;
     border:groove;
     margin:0.5%;
 
 }
-div.subtitle{
+div.subtitle,div.min{
     width:100%;
     padding-bottom: 1%;
     margin:0,1%,0;
-    text-align:center;
+    text-align: center;
     color:#ffffff;
+}
+div.subtitle{
     background-color: #333;
     font-size: larger;
     font-weight: bolder;
 }
 div.min{
     box-sizing: border-box;
-    width:100%;
     /* height:30%; */
-    text-align: center;
-    
     display:inline-block;
     background-color: rgb(143, 143, 143);
     margin:1%;
@@ -46,25 +45,25 @@ div.min:hover{
     background-color: cornflowerblue;
     /* font-size: larger; */
 }
-div.grid-container{
+/* div.grid-container{
     width: 30%;
     text-align: center;
-    /* height:10%; */
-    /* display: grid;
+    height:10%;
+    display: grid;
     grid-template-columns:1fr 1fr 1fr ;
     
     padding: 10px;
     grid-column-gap: 5%;
     grid-row-gap: 5%;
-    border-style: groove; */
+    border-style: groove;
     background-color: #1ded77;
     
-}
-.C1,.C2,.C3{
+} */
+/* .C1,.C2,.C3{
     display:inline-block;
     width: 30%;
     
-}
+} */
 
 a{
     color: #ffffff;
