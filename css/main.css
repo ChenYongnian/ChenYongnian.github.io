@@ -15,7 +15,7 @@ div.R{
 div.container{
     text-align: center;
     display:inline-block;
-    width: 33%;
+    width: 10%;
     height:auto;
     border:groove;
     margin:0.5%;
@@ -33,7 +33,7 @@ div.subtitle{
 }
 div.min{
     box-sizing: border-box;
-    width:30%;
+    width:100%;
     /* height:30%; */
     text-align: center;
     
@@ -84,6 +84,9 @@ div.subtitle{
 div.R{
     display:flex;
 }
-p{
+/* p{
     overflow: scroll;
+} */
+footer{
+    text-align: center;
 }
