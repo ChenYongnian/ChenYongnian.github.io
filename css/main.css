@@ -88,5 +88,9 @@ div.R{
     overflow: scroll;
 } */
 footer{
+    color: #ffffff;
     text-align: center;
+}
+address{
+    color:#ffffff;
 }
