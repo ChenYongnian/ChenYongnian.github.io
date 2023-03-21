@@ -17,18 +17,18 @@ div.container{
     display:inline-block;
     width: 13%;
     height:auto;
-    border:groove;
+    border:solid;
     margin:0.5%;
 
 }
 div.subtitle,div.min{
     width:100%;
     padding-bottom: 1%;
-    margin:0,1%,0;
     text-align: center;
     color:#ffffff;
 }
 div.subtitle{
+    margin:0,1%,0.5%;
     background-color: #333;
     font-size: larger;
     font-weight: bolder;
@@ -36,15 +36,21 @@ div.subtitle{
 div.min{
     box-sizing: border-box;
     /* height:30%; */
-    display:inline-block;
+    /* display:inline-block; */
     background-color: rgb(143, 143, 143);
-    margin:1%;
-    padding:1%;
+    margin:1%,0;
+    padding:2%,0;
 }
-div.min:hover{
+div.min > a{
+    display:block;
+}
+div.min > a:hover{
     background-color: cornflowerblue;
-    /* font-size: larger; */
 }
+/* div.min:hover{
+    background-color: cornflowerblue;
+    font-size: larger;
+} */
 /* div.grid-container{
     width: 30%;
     text-align: center;
