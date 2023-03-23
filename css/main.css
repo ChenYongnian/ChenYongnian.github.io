@@ -7,17 +7,30 @@ body{
     background-color: #625e5e;
     /* height: 1500px; */
 }
-div.R{
+
+div.head{
+    display:inline-block;
+    width: 18%;
+    /* height:30px; */
+    font-size: 50px;
+    box-sizing: border-box;
+    
+    background-color: rgb(143, 143, 143);
+    margin-top: 0.5%;
+    padding:2%,0;
+}
+div.R,div.R0{
     text-align: center;
-    margin:2%;
-    margin-top:0;
+    /* margin:2%;
+    margin-top:0; */
+    margin-left: 2%;margin-right: 2%;
 } 
 div.container{
     text-align: center;
     display:inline-block;
     width: 13%;
     height:100%;
-    border:solid;
+    /* border:solid; */
     margin:0.5%;
 
 }
@@ -38,38 +51,15 @@ div.min{
     height:auto;
     /* display:inline-block; */
     background-color: rgb(143, 143, 143);
-    margin:1%,0;
-    padding:2%,0;
+    font-size:17.5px;
 }
-div.min > a{
+div.min > a,div.head > a{
     display:block;
 }
-div.min > a:hover{
+div.min > a:hover,div.head > a:hover{
     background-color: cornflowerblue;
 }
-/* div.min:hover{
-    background-color: cornflowerblue;
-    font-size: larger;
-} */
-/* div.grid-container{
-    width: 30%;
-    text-align: center;
-    height:10%;
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr ;
-    
-    padding: 10px;
-    grid-column-gap: 5%;
-    grid-row-gap: 5%;
-    border-style: groove;
-    background-color: #1ded77;
-    
-} */
-/* .C1,.C2,.C3{
-    display:inline-block;
-    width: 30%;
-    
-} */
+
 
 a{
     color: #ffffff;
@@ -89,9 +79,7 @@ div.subtitle{
 div.R{
     display:flex;
 }
-/* p{
-    overflow: scroll;
-} */
+
 footer{
     color: #ffffff;
     text-align: center;
