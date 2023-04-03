@@ -1,8 +1,6 @@
-/* .header{
-  text-align: center;
-  font-family:Arial;
-} */
+
 div.menu{
+  text-align: center;
   position: sticky;
   top: 0;
   margin: 0;
@@ -61,3 +59,21 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+li.right {
+  
+  padding-top:15px;
+}
+
+#Time{
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 12%; */
+}
+#PT,#CET{
+  color: #f1f1f1;
+  width: 50%;
+  font-size: 13px;
+  white-space: nowrap;
+}
+

@@ -8,18 +8,19 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/table.css">
   <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/manuals.css">
 
   <base target="_blank">
   </base target>
   <style>
-    *{
+    * {
       font-family: Arial;
     }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-      var myhtml = marked('# Marked in browser\n\nRendered by **marked**.');
-      document.getElementById('content').innerHTML = myhtml;
+    var myhtml = marked('# Marked in browser\n\nRendered by **marked**.');
+    document.getElementById('content').innerHTML = myhtml;
   </script>
 </head>
 
@@ -43,15 +44,34 @@
       </ul>
     </div>
 
+    <div id="navigationBar">
+      <div id="course">
+        <h2>bio protocols</h2>
+        <ul>
+          <li><a href="http://swc.land"  target="iframe_a">swcLand</a>
+          </li>
+          <li><a href="https://www.w3school.com.cn/html/html_quick.asp" title="HTML 4.01 速查手册">HTML速查手册</a></li>
+        </ul>
+        <h2>HTML XHTML</h2>
+        <ul>
+          <li><a href="https://www.w3school.com.cn/html/html_xhtml.asp" title="XHTML 简介">XHTML 简介</a></li>
+        </ul>
+      </div>
+      
+    </div>
+    <div id="mainMain">
+      <iframe name="iframe_a"></iframe>
+    </div>
 
 
   </div>
 
   </div>
-  <br/>
+  <br />
   <address>
     <E-mail>E-mail:2982734189@qq.com</E-mail>
   </address>
   <footer>Bonne soirée!</footer>
 </body>
+
 </html>
