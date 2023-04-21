@@ -1,0 +1,23 @@
+ÖĞÎÄÃû³Æ	Ó¢ÎÄÃû³Æ	Èı×ÖÄ¸ËõĞ´	µ¥×ÖÄ¸ËõĞ´	ÃÜÂë×Ó
+±û°±Ëá	Alanine	Ala	A	GCU,GCC,GCA,GCG
+¾«°±Ëá	Arginine	Arg	R	CGU,CGC,CGA,CGG,AGA,AGG
+Ìì¶¬õ£°·	Asparagine	Asn	N	AAU,AAC
+Ìì¶¬°±Ëá	Asparticacid	Asp	D	GAU,GAC
+°ëë×°±Ëá	Cystine	Cys	C	UGU,UGC
+¹È°±Ëá	Glutamicacid	Glu	E	GAA,GAG
+¹È°±õ£°·	Glutarnine	Gln	Q	CAA,CAG
+¸Ê°±Ëá	Glycine	Gly	G	GGU,GGC,GGA,GGG
+×é°±Ëá	Histidine	His	H	CAU,CAC
+ÒìÁÁ°±Ëá	Isoleucine	Ile	I	AUU,AUC,AUA
+ÁÁ°±Ëá	Leucine	Leu	L	UUA,UUG,CUU,CUC,CUA,CUG
+Àµ°±Ëá	Lysine	Lys	K	AAA,AAG
+µ°°±Ëá	Methionine	Met	M	AUG
+±½±û°±Ëá	Phenylalanine	Phe	F	UUU,UUC
+¸¬°±Ëá	Proline	Pro	P	CCU,CCC,CCA,CCG
+Ë¿°±Ëá	Serine	Ser	S	UCU,UCC,UCA,UCG,AGU,AGC
+ËÕ°±Ëá	Threonine	Thr	T	ACU,ACC,ACA,ACG
+É«°±Ëá	Tryptophan	Trp	W	UGG
+ÀÒ°±Ëá	Tyrosine	Tyr	Y	UAU,UAC
+çÓ°±Ëá	Valine	Val	V	GUU,GUC,GUA,GUG
+ÆğÊ¼ÃÜÂë×Ó	 	 	 	AUG
+ÖÕÖ¹ÃÜÂë×Ó	 	 	 	UAG,UGA,UAA
