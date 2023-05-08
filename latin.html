@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Markdown实时预览</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js%22%3E"></script>
+</head>
+
+<body>
+    <textarea id=" markdown-input" onkeyup="updatePreview()"></textarea>
+    <div id="markdown-output"></div>
+
+    <script>
+        function updatePreview() {
+            const markdown = document.getElementById("markdown-input").value;
+            const html = marked(markdown);
+            document.getElementById("markdown-output").innerHTML = html;
+        }
+    </script>
+</body>
+</head>
