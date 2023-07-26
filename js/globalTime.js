@@ -5,15 +5,16 @@ function updateTimes() {
     const dateCET = new Date().toLocaleString('en-GB', { timeZone: 'Europe/Paris' });
 
     // Update the contents of the divs with the formatted dates
-    document.getElementById('PT').textContent = `Pacific Time: ${datePT}`;
-    document.getElementById('CET').textContent = `Central European Time: ${dateCET}`;
+    document.getElementById('PT').textContent = `PT : ${datePT}`;
+    document.getElementById('CET').textContent = `CET : ${dateCET}`;
   }
 
   // Call the updateTimes function every second
   //updateTimes();
   setInterval(updateTimes, 10);
 
-
+// PT:pacific time
+// CET:central european time
 
 
 

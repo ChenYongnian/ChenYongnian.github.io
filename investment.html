@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>swcLand-investment</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/table.css">
-    <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="css/foot.css">
-    <base target="_blank"></base target>
-    <style>
+  <title>swcLand-investment</title>
+  <meta charset="UTF-8" />
+  <base target="_blank">
+  </base target>
+  <style>
     * {
       font-family: Arial;
     }
@@ -18,18 +15,67 @@
   <script src="js/globalTime.js"></script>
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 </head>
-<body>
-<div id="nav">
 
-</div>
-<script>
-    $(document).ready(function() {
+<body>
+  <div id="nav">
+  </div>
+  <script>
+    $(document).ready(function () {
       $("#nav").load("./nav.html");
     });
-    $("#nav").text("hello world")
-</script>
-  <p>where is my content?</p>
+  </script>
+  <div id="lxj" class="G1">
+    <div>
+      <a href="https://classroom.zju.edu.cn/coursedetail?course_id=47690&tenant_code=112">证券投资学-李兴建</a>
+    </div>
+  </div>
+  <div class="sep"></div>
+  <div id="lei" class="G1">
+    <div><a href="https://www.youtube.com/playlist?list=PLjoHDinVemrHNDCowVzPngy8M8XWIBe_Y">Lei的交易系统</a></div>
+    <div><a href="https://themarketmemo.com/">TheMarketMemo-Lei</a></div>
+    <div><a
+        href="https://themarketmemo.com/wp-content/uploads/2023/05/%E7%B0%A1%E6%98%93%E4%BA%A4%E6%98%93%E6%B5%81%E7%A8%8B%E8%A1%A8.pdf">简易交易流程表</a>
+    </div>
+  </div>
+  <div class="sep"></div>
+  <div id="etc" class="G1">
+    <div><a href="https://cn.tradingview.com/">TradingViewer</a></div>
+  <div><a href="https://themarketmemo.com/">TheMarketMemo-Lei</a></div>
+  <div><a href="https://themarketmemo.com/">TheMarketMemo-Lei</a></div>
+  </div>
+  
+  <style>
+    /* #lei{
+      background-color: rgb(241, 208, 22);
+    } */
+    div {
+      text-align: center;
+    }
+    .G1{
+      margin:1% 1% 1%;
+      /* padding:5% 10% 5%; */
+      /* margin:100px  ; */
+    }
+    .G1 a{
+      text-decoration: none;
+      font-size: x-large;
+      color: black;
+    }
+    .G1 a:hover{
+      /* font-size: xx-large; */
+      display: block;
+      font-weight: bold;
+      background-color: lightgrey;
+    }
+    .G1 div{
+      text-align: center;
+      padding:1% 30% 1%;
+    }
+    .sep{
+      background-color: lightgray;
+      height:2px;
+    }
+  </style>
 </body>
-    
-</html>
 
+</html>

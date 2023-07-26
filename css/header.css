@@ -33,7 +33,7 @@ li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 
-li.dropdown {
+/* li.dropdown {
   display: inline-block;
 }
 
@@ -58,7 +58,7 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 
 li.right {
   
