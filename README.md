@@ -24,3 +24,19 @@
 
 7.26
 用jQuery load加载导航页，发现没有效果。原来在服务器模式下才能显示，简单打开文件并没有效果。于是下载live server。并将vscode关联到microsoft账号。
+
+等待上传的站点
+https://chatwithpaper.org/
+LEI提供的一些etf网站
+ocw mit.com
+mit公开课
+https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/
+B站链接
+手机翻墙
+http://wd.grdcloud.top/doc/8/
+哈佛单细胞公开课
+https://mp.weixin.qq.com/s/Fn4yXbKuI_ZH_xqlk-bUAA
+量化实盘
+fmz.com
+tradingLogic/tradkator
+https://www.trading-logic.com/wiki/fbabb27fe4c74ae4a039f5e2689dcd82.html
