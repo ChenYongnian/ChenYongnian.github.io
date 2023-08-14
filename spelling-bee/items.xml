@@ -1,0 +1,50 @@
+<items>
+    <puzzle>
+        <central>E</central>
+        <periphetal>M Y B N O G </periphetal>
+        <answer>
+            <word>genome</word>
+            <word>gene</word>
+            <word>gone</word>
+            <word>none</word>
+            <word>bone</word>
+            <word>meme</word>
+            <word>memo</word>
+            <word>been</word>
+            <word>enemy</word>
+            <word>obey</word>
+            <word>money</word>
+            <word>nome</word>
+            <word>gnome</word>
+            <word>benny</word>
+            <word>ebony</word>
+            <word>omen</word>
+            <word>bygone</word>
+            <word>monger</word>
+        </answer>
+    </puzzle>
+    <puzzle>
+        <central>W</central>
+        <periphetal>E R A G I K </periphetal>
+        <answer>
+            <word>genome</word>
+            <word>gene</word>
+            <word>gone</word>
+            <word>none</word>
+            <word>bone</word>
+            <word>meme</word>
+            <word>memo</word>
+            <word>been</word>
+            <word>enemy</word>
+            <word>obey</word>
+            <word>money</word>
+            <word>nome</word>
+            <word>gnome</word>
+            <word>benny</word>
+            <word>ebony</word>
+            <word>omen</word>
+            <word>bygone</word>
+            <word>monger</word>
+        </answer>
+    </puzzle>
+</items>
