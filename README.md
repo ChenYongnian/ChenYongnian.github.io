@@ -1,4 +1,4 @@
-网页改进：
+ 网页改进：
 翻译网站可以做下拉菜单。
 如果不同栏目的超链接数量不一，可以用常用的网站如cc98，学在浙大，ZJUEers或者搜索引擎首页填充
 白天模式可以用bonne journee
@@ -40,3 +40,10 @@ https://mp.weixin.qq.com/s/Fn4yXbKuI_ZH_xqlk-bUAA
 fmz.com
 tradingLogic/tradkator
 https://www.trading-logic.com/wiki/fbabb27fe4c74ae4a039f5e2689dcd82.html
+20230821 to add:
+https://satijalab.org/seurat/archive/v3.1/pbmc3k_tutorial.html
+chatmate
+poe
+seurat速查手册
+https://satijalab.org/seurat/articles/essential_commands.html
+
