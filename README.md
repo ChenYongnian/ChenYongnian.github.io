@@ -46,4 +46,9 @@ chatmate
 poe
 seurat速查手册
 https://satijalab.org/seurat/articles/essential_commands.html
-
+单细胞天地seurat教程
+https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI1Njk4ODE0MQ==&action=getalbum&album_id=1915477797733482497&uin=&key=&devicetype=Windows+10+x64&version=63090621&lang=zh_CN&ascene=7&session_us=gh_753f91fffc8c
+seurat结构
+https://mp.weixin.qq.com/s/LEHFnyelmE3MrOPkNz7owA
+SCTransform教程
+https://satijalab.org/seurat/articles/sctransform_v2_vignette
