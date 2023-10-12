@@ -52,3 +52,15 @@ seurat结构
 https://mp.weixin.qq.com/s/LEHFnyelmE3MrOPkNz7owA
 SCTransform教程
 https://satijalab.org/seurat/articles/sctransform_v2_vignette
+
+human protein atlas
+https://www.proteinatlas.org/
+默沙东诊疗手册专业版
+https://www.msdmanuals.cn/professional
+zju充值；邮箱别名
+https://myvpn.zju.edu.cn/login
+
+https://www.gastrojournal.org/
+
+cell marker database
+https://panglaodb.se/
