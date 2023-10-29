@@ -64,3 +64,16 @@ https://www.gastrojournal.org/
 
 cell marker database
 https://panglaodb.se/
+
+常用医学网站：
+梅奥
+默沙东
+cancerquest
+BMJ best practice
+
+AI  
+https://chat.xlang.ai/zh
+
+https://r-graph-gallery.com/
+
+https://www.ninjanerd.org/
