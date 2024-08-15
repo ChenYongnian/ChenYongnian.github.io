@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>swcLand-MedScience</title>
+  <meta charset="UTF-8" />
+  <base target="_blank">
+  </base target>
+  <style>
+    * {
+      font-family: Arial;
+    }
+  </style>
+  <style>table{width:100%;border-collapse:collapse;text-align:center;font-family:Arial,sans-serif;}th,td{padding:8px;border:1pxsolid#999;}th{background-color:#50C878;color:white;}tr:nth-child(even){background-color:#f2f2f2;}</style>
+  <style>  
+    body {  
+        margin: 20px;  
+        font-family: Arial, sans-serif;  
+    }  
+    #sidebar {  
+        position: fixed;  
+        top: 100px; 
+        left: 0;  
+        width: 150px;  
+        background-color: #f2f2f2;  
+        padding: 20px;  
+    }  
+    #sidebar ul {  
+        list-style-type: none;  
+        padding: 0;  
+    }  
+    #sidebar li {  
+        margin-bottom: 10px;  
+    }  
+    #sidebar li:hover {  
+        font-weight: bold;  
+    }  
+    #content {  
+        margin-left: 200px;  
+        padding: 20px;  
+        background-color: #ffffff;  
+        color: #000000;  
+    }  
+    #back-to-top{position:fixed;bottom:20px;left:20px;display:none;background-color:#007bff;color:#ffffff;border:none;padding:10px20px;cursor:pointer;}#back-to-top:hover{background-color:#0056b3;}
+    .portal-links {     display: flex;     flex-wrap: wrap; }  .portal-links a {     flex: 1 0 18%; /* 23% 确保每行最多容纳4个链接 */     margin: 1%; /* 为链接之间增加一些间距 */     text-align: center;     padding: 10px;     border: 1px solid #ccc;     border-radius: 5px;     text-decoration: none;     color: #333;     font-weight: bold; }  .portal-links a:hover {     color: #007bff;     border-color: #007bff; }  
+
+</style>  
+  <script src="js/script.js"></script>
+  <script src="js/globalTime.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+    <div id="nav">
+  </div>
+  <script>
+    $(document).ready(function () {
+      $("#nav").load("./nav.html");
+    });
+  </script>
+<!--导航栏-->
+<div class="container">
+    <nav class="sidebar" id="sidebar">
+        <ul>
+           <li><a href="#portal-links">Rome</a></li>
+           <li><a href="#HNMR">HNMR化学位移速览</a></li>
+           <li><a href="#HNMR">HNMR化学位移速览</a></li>
+           <li><a href="#HNMR">HNMR化学位移速览</a></li>
+           <li><a href="#HNMR">HNMR化学位移速览</a></li>
+            <li><a href="#">产品</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </nav>
+    <!--回到顶部按钮-->
+    <button onclick="backToTop()" id="back-to-top">Back to Top</button>  
+    <script>         window.onscroll = function() {scrollFunction()};          function scrollFunction() {             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {                 document.getElementById("back-to-top").style.display = "block";             } else {                 document.getElementById("back-to-top").style.display = "none";             }         }          function backToTop() {             document.body.scrollTop = 0;             document.documentElement.scrollTop = 0;         }     </script>  
+    <main class="content" id="content">
+        <h1>欢迎来到我的网站</h1>
+        <p>这是一个带有左侧导航栏的网页框架示例。您可以在这里添加您的内容。</p>
+            <div class="portal-links">  
+                <a href="https://www.nmrdb.org/new_predictor/index.shtml?v=v2.157.0">1HNMR预测</a>  
+                <a href="http://www.nmrdata.com/DisplayInfo.aspx">微谱数据</a>  
+                <a href="https://webspectra.chem.ucla.edu//">UCLA解谱教学</a>  
+                <a href="https://mancekou.github.io/posts/55e617e7/">常见NMR氢谱溶剂峰</a>  
+                <a href="https://mancekou.github.io/posts/2504b91/">常见NMR碳谱溶剂峰</a>  
+                <a href="http://www.nmrdata.com/DisplayInfo.aspx">微谱数据</a>  
+                <a href="http://www.nmrdata.com/DisplayInfo.aspx">微谱数据</a>  
+                <a href="http://www.nmrdata.com/DisplayInfo.aspx">微谱数据</a>  
+                <a href="http://www.nmrdata.com/DisplayInfo.aspx">微谱数据</a>  
+                <a href="http://www.nmrdata.com/DisplayInfo.aspx">微谱数据</a>  
+                <a href="http://www.nmrdata.com/DisplayInfo.aspx">微谱数据</a>  
+                <a href="http://www.nmrdata.com/DisplayInfo.aspx">微谱数据</a>  
+                <a href="http://www.nmrdata.com/DisplayInfo.aspx">微谱数据</a>  
+            </div>  
+        <!-- <div id="HNMRsolvent">
+            <table><thead><tr><th>溶剂</th><th></th><th>CDCl3</th><th>(CD3)2CO</th><th>(CD3)2SO</th><th>C6D6</th><th>CD3CN</th><th>CD3OH</th><th>D2O</th></tr></thead><tbody><tr><td>溶剂峰</td><td>—</td><td>77.1</td><td>206</td><td>39.5</td><td>128.1</td><td>118.3</td><td>49.0</td><td>—</td></tr><tr><td>乙酸</td><td>CO</td><td>176</td><td>172.3</td><td>171.9</td><td>176</td><td>173.2</td><td>175.1</td><td>177.2</td></tr><tr><td>CH3</td><td>20.8</td><td>20.5</td><td>20.9</td><td>20.3</td><td>20.7</td><td>20.6</td><td>21.0</td></tr><tr><td>丙酮</td><td>CO</td><td>207.1</td><td>205.9</td><td>206.3</td><td>204</td><td>207.4</td><td>209.7</td><td>215</td></tr><tr><td>CH3</td><td>30.9</td><td>30.6</td><td>30.6</td><td>30.1</td><td>30.9</td><td>30.7</td><td>30.9</td></tr><tr><td>乙腈</td><td>CN</td><td>116.4</td><td>117.6</td><td>117.9</td><td>116</td><td>118.3</td><td>118.1</td><td>119.7</td></tr><tr><td>CH3</td><td>1.9</td><td>1.1</td><td>1.0</td><td>2.0</td><td>1.8</td><td>0.8</td><td>1.5</td></tr><tr><td>甲醇</td><td>—</td><td>50.4</td><td>49.8</td><td>48.6</td><td>49.9</td><td>49.9</td><td>49.9</td><td>49.5</td></tr><tr><td>乙醚</td><td>CH2</td><td>65.9</td><td>66.0</td><td>62.0</td><td>66.0</td><td>66.4</td><td>66.9</td><td>66.4</td></tr><tr><td>CH3</td><td>15.2</td><td>15.8</td><td>15.0</td><td>15.5</td><td>15.6</td><td>15.5</td><td>14.8</td></tr><tr><td>乙醇</td><td>CH2</td><td>58.3</td><td>57.8</td><td>56.1</td><td>58.0</td><td>58.0</td><td>58.3</td><td>58.0</td></tr><tr><td>CH3</td><td>18.4</td><td>18.9</td><td>18.5</td><td>18.7</td><td>18.8</td><td>18.4</td><td>17.5</td></tr><tr><td>乙酸乙酯</td><td>CO</td><td>171.4</td><td>171</td><td>170.3</td><td>170.4</td><td>171.7</td><td>172.9</td><td>175.3</td></tr><tr><td>CH2</td><td>60.5</td><td>60.6</td><td>59.7</td><td>60.2</td><td>61.0</td><td>61.5</td><td>62.3</td></tr><tr><td>CH3CO</td><td>21.0</td><td>20.8</td><td>20.7</td><td>20.2</td><td>21.2</td><td>20.9</td><td>21.1</td></tr><tr><td>CH2CH3</td><td>14.2</td><td>14.5</td><td>14.4</td><td>14.4</td><td>14.5</td><td>14.5</td><td>13.9</td></tr><tr><td>氯仿</td><td>—</td><td>77.3</td><td>79.2</td><td>79.1</td><td>77.8</td><td>79.2</td><td>79.4</td><td>—</td></tr><tr><td>正己烷</td><td>CH2</td><td>31.6</td><td>32.3</td><td>31.0</td><td>32.0</td><td>32.4</td><td>32.7</td><td>—</td></tr><tr><td>CH2</td><td>22.7</td><td>23.3</td><td>22.0</td><td>23.0</td><td>23.4</td><td>23.7</td><td>—</td></tr><tr><td>CH3</td><td>14.1</td><td>14.3</td><td>13.9</td><td>14.3</td><td>14.4</td><td>14.4</td><td>—</td></tr><tr><td>二甲基甲酰胺</td><td>CHO</td><td>162.3</td><td>163</td><td>163</td><td>162</td><td>163.2</td><td>164.7</td><td>165.5</td></tr><tr><td>CH3</td><td>36.4</td><td>36.1</td><td>35.7</td><td>35.0</td><td>36.6</td><td>36.9</td><td>37.5</td></tr><tr><td>CH3</td><td>31.4</td><td>31.1</td><td>30.7</td><td>30.7</td><td>31.3</td><td>31.6</td><td>32.0</td></tr><tr><td>二甲基亚砜</td><td>—</td><td>40.8</td><td>41.2</td><td>40.4</td><td>40.0</td><td>41.3</td><td>40.4</td><td>39.4</td></tr><tr><td>二氯甲烷</td><td>—</td><td>53.5</td><td>54.9</td><td>54.8</td><td>53.5</td><td>55.3</td><td>54.8</td><td>—</td></tr><tr><td>环己烷</td><td>—</td><td>26.9</td><td>27.5</td><td>26.3</td><td>27.3</td><td>27.6</td><td>28.0</td><td>—</td></tr></tbody></table></body>
+        </div> -->
+        <div id="HNMR">
+            <img src="images/ChemStr/1HNMR化学位移整理.png/1.png" alt="HNMR化学位移速览"> 
+            <img src="images/ChemStr/1HNMR化学位移整理.png/2.png" alt="HNMR化学位移速览"> 
+            <img src="images/ChemStr/1HNMR化学位移整理.png/3.png" alt="HNMR化学位移速览"> 
+        </div>
+    </main>
+</body>
+
+
